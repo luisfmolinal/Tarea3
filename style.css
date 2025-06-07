@@ -1,0 +1,89 @@
+/* Estilos base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  background-color: #333;
+  position: fixed; /* Fijo arriba */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Para que quede encima */
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu img {
+  vertical-align: middle;
+}
+.productos {
+  margin-top: 80px; 
+  text-align: center;
+}
+
+.producto {
+  margin: 20px auto;
+  width: 200px;
+}
+
+.producto img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.productos {
+  margin-top: 80px; 
+  text-align: center;
+}
+
+.producto {
+  margin: 20px auto;
+  width: 200px;
+}
+
+.producto img {
+  width: 200%;
+  display: block;
+  margin: 0 auto;
+}
+.productos {
+  text-align: center; /* Centra el contenido dentro de la sección */
+}
+
+.producto {
+  margin: 20px auto;  /* Centra el bloque .producto */
+  width: 200px;
+}
+
+.producto img {
+  display: block;
+  margin: 0 auto;     /* Centra la imagen dentro del bloque */
+  width: 100%;
+}
+.producto p {
+  text-align: center;
+}
+.anuncio {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 200px; /* Ajusta el tamaño según necesites */
+  z-index: 1000; /* Para asegurarse que esté encima de otros elementos */
+}
